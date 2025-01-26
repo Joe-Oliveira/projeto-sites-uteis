@@ -50,8 +50,8 @@ main {
     flex-direction: column;
     position: relative;
     align-items: center;
-    margin: 50px;
-    padding: 50px;
+    margin-bottom: 100px;
+    padding: 100px;
 }
 
 
