@@ -168,7 +168,38 @@ footer {
 }
 
 @media  screen and (max-width: 1170px) {
+    #titulo {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    #home {
+        width: 100%;
+    }
+
     #lista-sites .imagens {
         display: none;
+    }
+
+    .sites {
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sites h1 {
+        font-size: 1.3rem;
+    }
+
+    .sites p {
+        font-size: 1rem;
+        width: 100%;
+    }
+    
+    .sites a {
+        font-size: 1.1rem;
     }
 }
