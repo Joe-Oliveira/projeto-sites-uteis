@@ -17,6 +17,23 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 10px;
+}
+
+header i {
+    font-size: 2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
 body {
     padding-top: 100px;
     background-color: var(--cor1);
@@ -126,9 +143,32 @@ main {
     color: #1d1d1d;
 }
 
+#link-icone {
+    padding: 4px;
+}
+
 .sites a:hover {
     cursor: pointer;
     padding: 18px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
+}
+
+footer {
+    
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: var(--cor3);
+}
+
+.footer-items {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media  screen and (max-width: 1170px) {
+    #lista-sites .imagens {
+        display: none;
+    }
 }

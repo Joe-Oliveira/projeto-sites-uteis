@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="style.css">
     <title>Sites Úteis</title>
 </head>
 <body>
+    <header>
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/Joe-Oliveira">Github</a>
+    </header>
+
     <div id="home">
         <div id="shape"></div>
         <h1 id="titulo">Sites Úteis para Front-End Devs</h1>
@@ -27,8 +35,8 @@
 
             <div class="sites">
             <h1>Ícones para HTML</h1>
-            <p>Site que disponibiliza icones variados</p>
-            <a href="https://www.boxicons.com" target="_blank">Acesse aqui !</a>
+            <p>Site que disponibiliza icones variados. Primeiro acessar <a href="https://cdnjs.com/libraries/font-awesome" id="link-icone" target="_blank">AQUI!</a> copiar e colar a primeira linha no head, depois acessar o outro link e escolher o icone</p>
+            <a href="https://fontawesome.com/icons" target="_blank">Acesse aqui !</a>
             <img src="imagems/icons.png" class="imagens" alt="">
             </div>
 
@@ -74,7 +82,14 @@
                 <img src="imagems/codeimg.png" class="imagens" alt="">
             </div>
 
-    </section>
+        </section>
     </main>
+    <footer>
+        <img src="imagems/wavesvg.svg" alt="">
+        <div class="footer-items">
+            <span>&copy  2025  Desenvolvido por Joe Oliveira</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
